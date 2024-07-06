@@ -1,0 +1,34 @@
+npm init -y 
+"type": "module",
+
+npm i -D nodemon 
+ "dev": "nodemon index.js"
+npm run dev
+
+Get url
+http://localhost:3000/api/users
+
+
+post url
+http://localhost:3000/api/user
+
+
+        {
+            "_id": "6689d27bba23eac67603d9dd",
+            "name": "John Doe",
+            "number": "1234567890",
+            "roll": "Engineer",
+            "salary": 50000
+        },
+
+
+    {
+        "_id": "6689d27bba23eac67603d9dd",
+        "name": "John Doe",
+        "number": "1234567890",
+        "roll": "Engineer",
+        "salary": 50000,
+        "exp": 5,
+        "address": "123 Main St, Anytown, USA"
+    }
+
